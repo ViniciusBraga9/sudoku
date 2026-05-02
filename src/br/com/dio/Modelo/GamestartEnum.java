@@ -1,0 +1,1 @@
+package br.com.dio.Modelo;public enum GamestartEnum {    NO_STARTING("não iniciado"),    INCOMPLETE("incompleto"),    COMPLETE("completo");    private String label;    private GamestartEnum(final String label) {        this.label = label;    }    public String getLabel() {        return label;    }}
